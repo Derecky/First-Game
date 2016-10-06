@@ -1,0 +1,33 @@
+DEPENDENT ATRIBUTES: 
+
+- health point (HP);
+- mana point (MP);
+- dodge;
+- physic armor;
+- magic armor;
+- accuracy;
+- precision;
+- attack speed;
+- move speed;
+- magic damage;
+- distance damage;
+- physical damage;
+- block; 				//bloqueio reduz o dano tomado (reduzido à armor) em 0.25% por lvl de atributo (max 100)
+- weight;
+- critical rate;
+- critical damage;
+- magic amplification;
+- hp regeneration;
+- mana regeneration;
+
+atributo fixo: Atributo ganho a partir do atributo distribuído.
+atributo adicional: Atributo ganho a partir do atributo de itens e equipamentos.
+
+
+INDEPENDENT ATRIBUTES:
+
+- strenght;	//Aumenta dano físico, armadura fisica, hp, peso, 
+- inteligence;	//Aumenta dano mágico, mana, precisão, regeneração de mana, armadura magica
+- agility;	//Aumenta esquiva, velocidade de ataque, velocidade de movimento
+- dexterity;	//Aumenta dano distancia, precisão, acurácia, armadura fisica, armadura magica
+- vitality;	//Aumenta hp, armadura magica, armadura fisica, block, peso
